@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ejercicio 2</title>
+</head>
+
+<body>
+    <div>
+        <h1 class="cabecera">
+            Excercise 2 
+        </h1>
+    </div>
+    <div>
+        <h3>
+            Este es un ejercicio tomando en cuenta lo aprendido en clase, con respecto a Javascript
+        </h3>
+    </div>
+    <div class="cont">
+        <p>
+            <strong>Las instrucciones son las siguientes:</strong><br><br>
+            1. Declara una variable llamada challenge y asígnale un valor inicial '30 Days Of JavaScript'. <br>
+            2. Imprime la cadena en la consola del navegador usando console.log()<br>
+            3. Imprime la longitud de la cadena en la consola del navegador usando console.log()<br>
+            4. Cambia todos los caracteres de la cadena a mayúsculas usando el método toUpperCase()<br>
+            5. Cambia todos los caracteres de la cadena a minúsculas usando el método toLowerCase()<br>
+            6. Corta (slice) la primera palabra de la cadena usando el método substr() o substring()<br>
+            7. Corta la frase Days Of JavaScript de 30 Days Of JavaScript.<br>
+            8. Verifica si la cadena contiene la palabra Script usando el método includes()<br>
+            9. Divide la cadena en un array usando el método split()<br>
+            10. Divide la cadena 30 Days Of JavaScript en los espacios usando el método split()<br>
+            11. 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' divide la cadena en la coma y cámbiala a un array.<br>
+            12. Cambia 30 Days Of JavaScript a 30 Days Of Node usando el método replace().<br>
+            13. ¿Cuál es el carácter en el índice 15 en la cadena '30 Days Of JavaScript'? Usa el método charAt().<br>
+            14. ¿Cuál es el código de carácter de J en la cadena '30 Days Of JavaScript' usando charCodeAt()<br>
+            15. Usa indexOf para determinar la posición de la primera ocurrencia de a en 30 Days Of JavaScript<br>
+            16. Usa lastIndexOf para determinar la posición de la última ocurrencia de a en 30 Days Of JavaScript.<br>
+            17. Usa indexOf para encontrar la posición de la primera ocurrencia de la palabra because en la siguiente oración: 'You cannot end a sentence with because because because is a conjunction'<br>
+            18. Usa lastIndexOf para encontrar la posición de la última ocurrencia de la palabra because en la siguiente oración: 'You cannot end a sentence with because because because is a conjunction'<br>
+            19. Usa search para encontrar la posición de la primera ocurrencia de la palabra because en la siguiente oración: 'You cannot end a sentence with because because because is a conjunction'<br>
+            20. Usa trim() para eliminar cualquier espacio en blanco al principio y al final de una cadena. Ej. ' 30 Days Of JavaScript '.<br>
+            21. Usa el método startsWith() con la cadena 30 Days Of JavaScript y haz que el resultado sea true<br>
+            22. Usa el método endsWith() con la cadena 30 Days Of JavaScript y haz que el resultado sea true<br>
+            23. Usa el método match() para encontrar todas las a’s en 30 Days Of JavaScript<br>
+            24. Usa concat() y une '30 Days of' y 'JavaScript' en una sola cadena, '30 Days Of JavaScript'<br>
+            25. Usa el método repeat() para imprimir 30 Days Of JavaScript 2 veces<br>
+       
+    </p>
+    </div>
+    
+    <div class="cont">
+        <p>
+            <strong><span style="color:purple; font-size: 1.5em;">Resultados</span></strong><br><br>
+            
+            <span style="color:blue;">primera instrucción</span><br>
+            let challenge = ("30 Days of JavaScript");<br>
+            <span style="color:green;">// Crea una variable llamada challenge y le asigna el valor "30 Days of JavaScript".</span><br><br>
+            
+            <span style="color:blue;">segunda instrucción</span><br>
+            console.log(challenge);<br>
+            <span style="color:green;">Imprime el contenido de la variable challenge en la consola.</span><br><br>
+            
+            <span style="color:blue;">tercera instrucción</span><br>
+            console.log(challenge.length);<br>
+            <span style="color:green;">Muestra la longitud de la cadena challenge.</span><br><br>
+            
+            <span style="color:blue;">cuarta instrucción</span><br>
+            console.log(challenge.toUpperCase());<br>
+            <span style="color:green;">Convierte la cadena challenge a mayúsculas.</span><br><br>
+            
+            <span style="color:blue;">quinta instrucción</span><br>
+            console.log(challenge.toLowerCase());<br>
+            <span style="color:green;">Convierte la cadena challenge a minúsculas.</span><br><br>
+            
+            <span style="color:blue;">sexta instrucción</span><br>
+            console.log(challenge.substring(3));<br>
+            <span style="color:green;">Corta la cadena challenge comenzando desde el índice 3.</span><br><br>
+            
+            <span style="color:blue;">séptima instrucción</span><br>
+            console.log(challenge.replace("Days of JavaScript", ""));<br>
+            <span style="color:green;">Reemplaza "Days of JavaScript" en challenge por una cadena vacía.</span><br><br>
+            
+            <span style="color:blue;">octava instrucción</span><br>
+            console.log(challenge.includes("Script"));<br>
+            <span style="color:green;">Verifica si la cadena challenge contiene "Script".</span><br><br>
+            
+            <span style="color:blue;">novena instrucción</span><br>
+            console.log(challenge.split(""));<br>
+            <span style="color:green;">Divide la cadena en un array, con cada letra como un elemento separado.</span><br><br>
+            
+            <span style="color:blue;">décima instrucción</span><br>
+            let array = ("1 2 3 4 5");<br>
+            console.log(array.split(''));<br>
+            <span style="color:green;">Convierte cada carácter de array en un elemento de un array.</span><br><br>
+            
+            <!-- Continúa el mismo patrón para las siguientes instrucciones -->
+    
+        </p>
+    </div>
+
+
+    <script src="scripts/ejercicio2.js"></script>
+</body>
+
+</html>
